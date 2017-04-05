@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+ul#projects {
+	margin-left: 2em;
+	line-height: 2em;
+	font-size: 1em;
+}
+
+ul#projects li:nth-of-type(3n+1) {
+		list-style-image: url('../images/sonic-emblem-by-tsukisaiy.jpg');
+		}
+	
+ul#projects li:nth-of-type(3n+2) {
+		list-style-image: url('../images/tails-emblem-by-tsukisaiy.jpg');
+		}
+		
+ul#projects li:nth-of-type(3n+3) {
+		list-style-image: url('../images/knuckles-emblem-by-tsukisaiy.jpg');
+		}
+
+ul > li > a:link, ul > li > a:visited {
+	text-decoration: none;
+}
+
+ul > li > a:hover, ul > li > a:active {
+	text-decoration: underline;
+}
